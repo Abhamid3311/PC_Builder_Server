@@ -140,7 +140,7 @@ const run = async () => {
 
     //Users
 
-    app.post('/user', async (req, res) => {
+   /*  app.post('/user', async (req, res) => {
       const user = req.body;
 
       const result = await userCollection.insertOne(user);
@@ -158,7 +158,7 @@ const run = async () => {
       }
 
       res.send({ status: false });
-    });
+    }); */
 
 
 
